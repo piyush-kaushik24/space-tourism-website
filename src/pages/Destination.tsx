@@ -18,7 +18,7 @@ export const Destination = ({ destination }: DestinationProp) => {
       <main className="text-text font-barlow-condensed relative z-10 p-300 md:p-400">
         <h1 className="md:text-preset-6 lg:text-preset-5 flex justify-center gap-4 pb-300 md:justify-start">
           <span className="text-secondary/50 font-bold">01</span>
-          <p className="">PICK YOUR DESTINATION</p>
+          <p>PICK YOUR DESTINATION</p>
         </h1>
         <div className="grid-cols-2 items-center lg:grid lg:gap-8">
           <ul className="grid">

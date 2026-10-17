@@ -23,6 +23,7 @@ export const Header = ({ onClick, clicked }: HeaderProp) => {
         </div>
         <button
           ref={buttonRef}
+          aria-label={isOpen ? "Close navigation" : "Open navigation"}
           type="button"
           onClick={() => setIsOpen((prev) => !prev)}
 
